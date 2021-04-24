@@ -3,6 +3,8 @@ import './App.css';
 import Diapositivas from'./component/Diapositivas'
 
 function App() {
+  // Nefer Blanchar 23/04/2021
+  //Lista de Datos
   const list =[
     {
       title:"Today's workout plan",

@@ -19,6 +19,7 @@ function Diapositiva({list}){
         <button type="button" className="btn btn-primary"
         disabled={count===4} onClick={()=> SetCount(count+1)}>Next</button>
         </div>
+        {/* Visualización de la diapositiva*/}
         <div className="container card-body" >
                 <h1>{list[count]['title']}</h1>
                 <h1>{list[count]['text']}</h1>
